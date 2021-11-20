@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family:  "Montserrat", sans-serif;
+}
+
+.logo {
+  float: left; 
+}
+.logo-head {
+  color: white;
+  margin: 5px 0px;
+  padding: 8px;
+  text-align: center;
+}
+
+.options {
+  float: right;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.div-over-image {
+  background: rgb(4 170 109 / 62%);
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.new-arrival {
+  color: white;
+  margin: 5px;
+  font-family:  "Montserrat", sans-serif;
+  font-size: 5rem;
+}
+.collection {
+  color: ghostwhite;
+  margin: 5px;
+  font-family: "Roboto", cursive;
+  font-size: 3rem;
+}
+.shop-now {
+  background-color: grey;
+  text-decoration: none;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+}
+.productList {
+  float: left;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.productDiv {
+  float: left;
+  height: 22em;
+  width: 20%;
+  margin: 20px 40px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+.product-image {
+  width:inherit;
+  height:15em;
+}
+.product-info {
+  text-align: center;
+  height: 5em;
+}
+
+
+footer {
+  background-color: black;
+  float: left;
+  height: 100px;
+  width: 100%;
+  text-align: center!important;
+  color: white;
+}
+.pad-bottom {
+  padding-top: 15px;
+}
