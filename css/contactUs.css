@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family:  "Montserrat", sans-serif;
+}
+.boldText {
+	font-weight: 900;
+}
+.backgroundColor {
+	height: 40em;
+	background: #008a37;
+	display: flex;
+    flex-direction: column;
+}
+.contactUS-div {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+    margin-top: 10%;
+}
+.text-center {
+	text-align: center;
+}
+.width30 {
+	width: 35%;
+	float: left;
+}
+.logoImage
+{
+	margin: 0px auto;
+	height:100px;
+	width: 100px;
+	border-radius: 50px;
+	background-size: 100px 100px; 
+	background-color: #00000069;
+}
+.l_image_phn
+{
+	background-image: url("../image/phone_lg.png");
+}
+.l_image_mark
+{
+	background-image: url("../image/marker.png");	
+}
+.l_image_message
+{
+	background-image: url("../image/message.png");	
+}
+.mailClass {
+	font-weight: bold;text-decoration: none;color:black
+}
+.mailClass:hover {
+	color:#292727;
+}
+
+@media only screen and (max-width: 600px) { 
+	.logoImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-size: 50px 50px;
+	}
+}
